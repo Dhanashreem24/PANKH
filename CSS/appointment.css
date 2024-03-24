@@ -4,7 +4,7 @@
     font-family: Arial, sans-serif;
     padding-top: 100px;
     /*background-color:#72A0C1;*/
-    background-image:url("doca1.jpeg");
+    background-image:url("../Assets/doca1.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -12,7 +12,7 @@
     font-family: Arial, sans-serif;
     padding-top: 100px;
     /*background-color:#72A0C1;*/
-    background-image:url("Medical-Emergency.png");
+    background-image:url("../Assets/Medical-Emergency.png");
     background-repeat: no-repeat;
     background-size: cover;
 }

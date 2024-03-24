@@ -1,3 +1,7 @@
+*{
+    scroll-behavior: smooth;
+}
+
 .bar a{
     text-align: center;
     width: 100px;
@@ -7,6 +11,7 @@
     text-decoration: none;
     color: black;
     font-family: sans-serif;
+    padding: 1%;
 }
 #doc{
     text-align: center;
@@ -18,7 +23,7 @@
     color:white;
     font-family: sans-serif;
     background-color: #4D7C8A;
-    border-radius: 10px;
+    border-radius: 5%;
 }
 #home{
     text-align: center;
@@ -283,7 +288,101 @@ font-family: Open Sans, Arial, sans-serif;
 font-size: 16px;
 
 }
+.h{
+    margin-top: 3%;
+}
+/* Your existing CSS goes here */
 
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+    .bar {
+        width: 70%; /* Adjust width for smaller screens */
+    }
 
+    #box1, #box2, #box3 {
+        width: 150px; /* Adjust width of boxes */
+        height: 150px; /* Adjust height of boxes */
+    }
 
+    .text {
+        left: 10%; /* Adjust position of text */
+    }
+}
 
+@media screen and (max-width: 992px) {
+    .bar {
+        width: 80%; /* Adjust width for even smaller screens */
+    }
+
+    .container {
+        height: 50vh; /* Adjust height of container */
+    }
+
+    .text {
+        font-size: 40px; /* Adjust font size */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bar {
+        width: 90%; /* Adjust width for tablets */
+    }
+
+    .nav {
+        height: auto; /* Adjust height for smaller screens */
+    }
+
+    #logo {
+        width: 30%; /* Adjust logo width */
+    }
+
+    .button {
+        flex-direction: column; /* Stack buttons vertically */
+        gap: 30px; /* Reduce gap between buttons */
+    }
+
+    #box1, #box2, #box3 {
+        width: 100px; /* Adjust width of boxes */
+        height: 100px; /* Adjust height of boxes */
+    }
+
+    .text {
+        left: 5%; /* Adjust position of text */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .bar {
+        width: 100%; /* Adjust width for mobile devices */
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .nav {
+        height: auto; /* Adjust height for smaller screens */
+    }
+
+    #logo {
+        width: 50%; /* Adjust logo width */
+    }
+
+    .button {
+        flex-direction: column; /* Stack buttons vertically */
+        gap: 20px; /* Reduce gap between buttons */
+    }
+
+    #box1, #box2, #box3 {
+        width: 80px; /* Adjust width of boxes */
+        height: 80px; /* Adjust height of boxes */
+    }
+
+    .text {
+        left: 2%; /* Adjust position of text */
+    }
+
+    .para {
+        height: 70px; /* Adjust height of para */
+        width: 70px; /* Adjust width of para */
+    }
+}
+
+/* Additional media queries for even smaller devices can be added if needed */
